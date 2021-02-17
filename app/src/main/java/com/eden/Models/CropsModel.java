@@ -1,4 +1,4 @@
-package com.eden;
+package com.eden.Models;
 
 public class CropsModel {
 

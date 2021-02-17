@@ -1,8 +1,10 @@
-package com.eden;
+package com.eden.Ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.eden.R;
 
 public class MainActivity extends AppCompatActivity {
 

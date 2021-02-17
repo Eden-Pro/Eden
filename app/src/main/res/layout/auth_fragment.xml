@@ -110,7 +110,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="26dp"
             android:background="@drawable/buttton_bg"
-            android:text="Login with Google"
+            android:text="Sign up"
             android:textColor="#318ABE"
             app:backgroundTint="#FFFFFF" />
         <androidx.appcompat.widget.AppCompatTextView
