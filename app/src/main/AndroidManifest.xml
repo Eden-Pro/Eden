@@ -18,6 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Ui.MainActivity" />
+        <activity android:name=".Ui.AuthFragment" />
     </application>
 
 </manifest>
