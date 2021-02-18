@@ -18,7 +18,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#6F023605" />
+        android:background="#6F010E02" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -66,13 +66,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
+            app:boxStrokeColor="@color/white"
+            app:boxStrokeWidth="5dp"
             android:textColorHint="@color/white">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/email_login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:layout_marginTop="5dp"
                 android:background="@android:color/transparent"
                 android:maxLines="1"
@@ -86,7 +87,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
-
+            app:boxStrokeColor="@color/white"
+            app:boxStrokeWidth="5dp"
             android:textColorHint="@color/white">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -106,24 +108,59 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/login_with_google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/buttton_bg"
+            android:text="Sign In"
+            android:textColor="#318ABE"
+            app:backgroundTint="#FFFFFF" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/continue_with_google"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="26dp"
             android:background="@drawable/buttton_bg"
-            android:text="Sign up"
+            android:text="Continue With Google"
             android:textColor="#318ABE"
             app:backgroundTint="#FFFFFF" />
-        <androidx.appcompat.widget.AppCompatTextView
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|start">
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="forget password?"
-            android:textSize="30sp"
-            android:layout_below="@id/login_with_google"
-
-
-            />
-
-
+            android:fontFamily="@font/work_sans_black"
+            android:text="REGISTER"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textStyle="bold"
+           android:layout_gravity="bottom|start"
+            android:layout_marginTop="65dp"
+            android:textColor="#F2F2F2"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget Password?"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:textSize="18dp"
+            android:fontFamily="@font/open_sans_semibold"/>
+    </LinearLayout>
+
 
 </RelativeLayout>
