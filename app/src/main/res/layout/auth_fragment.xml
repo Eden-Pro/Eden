@@ -113,7 +113,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/login_with_google"
-            android:layout_width="200dp"
+            android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="26dp"
             android:background="@drawable/buttton_bg"
@@ -124,9 +124,11 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/continue_with_google"
-            android:layout_width="361dp"
+            android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="26dp"
+
+            app:iconGravity="start"
             android:background="@drawable/buttton_bg"
             android:text="Continue With Google"
             android:textColor="#318ABE"
