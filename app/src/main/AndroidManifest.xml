@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
-        <activity android:name=".sign_up"></activity>
+        <activity android:name=".activity_home"></activity>
+        <activity android:name=".sign_up" />
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Ui.MainActivity" />
+        <activity android:name=".Ui.AuthFragment" />
     </application>
 
 </manifest>
